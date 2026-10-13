@@ -1,0 +1,16 @@
+# Private configuration and exported user data
+.env
+.env.*
+!.env.example
+*.local.html
+*.configured.html
+*.sqlite
+*.db
+*database-export*
+*supabase-dump*
+*.backup
+*.bak
+private/
+exports/
+node_modules/
+.DS_Store
